@@ -128,7 +128,7 @@ Messages are sent through Gmail using Nodemailer.
 
 ## 📂 Project Structure
 
-```text
+````text
 FUTURE_FS_01/
 │
 ├── Frontend/
@@ -152,7 +152,9 @@ FUTURE_FS_01/
 ├── .gitignore
 └── README.md
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
+
+```text
 1. Clone the repository
 git clone https://github.com/YOUR-USERNAME/Lovesh-Portfolio.git
 cd Lovesh-Portfolio
@@ -208,4 +210,4 @@ LinkedIn: https://www.linkedin.com/in/lovesh-semwal-702724373/
 📜 License
 
 This project is created for personal portfolio and learning purposes.
-```
+````
