@@ -34,7 +34,9 @@ function Footer() {
             </h2>
 
             <a
-              href="mailto:loveshsemwal289@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=loveshsemwal289@gmail.com"
+              target="_blank"
+              rel="noreferrer"
               className="group flex w-fit items-center gap-3 rounded-full bg-cyan-400 px-6! py-3! font-semibold text-black transition hover:bg-cyan-300"
             >
               Get in touch
