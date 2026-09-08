@@ -128,7 +128,7 @@ Messages are sent through Gmail using Nodemailer.
 
 ## 📂 Project Structure
 
-````text
+```text
 FUTURE_FS_01/
 │
 ├── Frontend/
@@ -151,43 +151,60 @@ FUTURE_FS_01/
 │
 ├── .gitignore
 └── README.md
+```
 
 ## ⚙️ Installation & Setup
 
-```text
 1. Clone the repository
+
+```bash
 git clone https://github.com/YOUR-USERNAME/Lovesh-Portfolio.git
 cd Lovesh-Portfolio
+```
+
 2. Setup Frontend
+
+```bash
 cd Frontend
 npm install
 npm run dev
+```
 
 The frontend will run on:
 
+```bash
 http://localhost:5173
+```
+
 3. Setup Backend
 
 Open another terminal:
 
+```bash
 cd Backend
 npm install
 npm run dev
+```
 
 The backend will run on:
 
+```bash
 http://localhost:5000
-🔐 Environment Variables
+```
+
+Environment Variables
 
 Create a .env file inside the Backend folder:
 
+```bash
 PORT=5000
 EMAIL_USER=your-gmail@gmail.com
 EMAIL_PASS=your-gmail-app-password
+```
 
 Do not upload your .env file to GitHub.
 
-📱 Responsive Design
+Responsive Design
 
 The portfolio is designed to work across:
 
@@ -195,11 +212,11 @@ Desktop
 Laptop
 Tablet
 Mobile devices
-📄 Resume
+Resume
 
 A downloadable resume is available directly from the portfolio website.
 
-👨‍💻 Author
+Author
 
 Lovesh Semwal
 
@@ -207,7 +224,6 @@ B.Tech Computer Science & Engineering Student
 
 GitHub: https://github.com/lovesh-semwal
 LinkedIn: https://www.linkedin.com/in/lovesh-semwal-702724373/
-📜 License
+License
 
 This project is created for personal portfolio and learning purposes.
-````
