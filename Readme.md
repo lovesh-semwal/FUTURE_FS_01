@@ -204,7 +204,7 @@ EMAIL_PASS=your-gmail-app-password
 
 Do not upload your .env file to GitHub.
 
-Responsive Design
+## Responsive Design
 
 The portfolio is designed to work across:
 
@@ -216,7 +216,7 @@ Resume
 
 A downloadable resume is available directly from the portfolio website.
 
-Author
+## Author
 
 Lovesh Semwal
 
