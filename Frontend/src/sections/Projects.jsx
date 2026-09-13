@@ -17,6 +17,7 @@ const projects = [
       "Node.js",
       "Express.js",
       "MongoDB",
+      "Groq API",
     ],
     github: "https://github.com/lovesh-semwal/lifeline-AI",
     live: "https://lifeline-ai-by-lovesh.vercel.app/",
@@ -55,6 +56,7 @@ const projects = [
     github: "https://github.com/lovesh-semwal/CarrerPilot-AI",
     live: "#",
   },
+  
 ];
 
 function Projects() {

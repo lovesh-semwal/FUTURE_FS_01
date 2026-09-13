@@ -1,4 +1,10 @@
-import { FiArrowDown, FiArrowUpRight, FiGithub, FiLinkedin } from "react-icons/fi";
+import {
+  FiArrowDown,
+  FiArrowUpRight,
+  FiGithub,
+  FiLinkedin,
+} from "react-icons/fi";
+import profile from "../assests/photo.jpeg";
 
 function Hero() {
   return (
@@ -7,7 +13,6 @@ function Hero() {
       className="relative flex min-h-screen items-center overflow-hidden px-6! pt-28! pb-16! lg:px-8!"
     >
       <div className="mx-auto! grid w-full max-w-7xl items-center gap-16 lg:grid-cols-[1.2fr_0.8fr]">
-
         {/* Hero Content */}
         <div>
           <p className="mb-5! text-sm font-medium uppercase tracking-[0.3em] text-cyan-400">
@@ -26,9 +31,9 @@ function Hero() {
           </h2>
 
           <p className="mt-6! max-w-2xl text-base leading-8 text-gray-400 sm:text-lg">
-            I build modern, responsive web applications and practical
-            digital solutions using technologies like React, JavaScript,
-            Node.js and MongoDB.
+            I build modern, responsive web applications and practical digital
+            solutions using technologies like React, JavaScript, Node.js and
+            MongoDB.
           </p>
 
           {/* Buttons */}
@@ -73,26 +78,24 @@ function Hero() {
 
             <span className="h-px w-16 bg-white/20" />
 
-            <span className="text-sm text-gray-500">
-              Open to opportunities
-            </span>
+            <span className="text-sm text-gray-500">Open to opportunities</span>
           </div>
         </div>
 
         {/* Hero Visual */}
         <div className="flex justify-center lg:justify-end">
           <div className="relative">
-
             {/* Glow */}
             <div className="absolute -inset-6 rounded-full bg-cyan-400/10 blur-3xl" />
 
             {/* Profile Image */}
-            <div className="relative flex h-72 w-72 items-center justify-center overflow-hidden rounded-full border border-white/10 bg-white/5 sm:h-80 sm:w-80">
-              <div className="flex h-full w-full items-center justify-center text-7xl font-bold text-gray-600">
-                LS
-              </div>
+            <div className="relative h-72 w-72 overflow-hidden rounded-full border border-white/10 bg-white/5 sm:h-80 sm:w-80">
+              <img
+                src={profile}
+                alt="Lovesh Semwal"
+                className="h-full w-full object-cover"
+              />
             </div>
-
           </div>
         </div>
       </div>
